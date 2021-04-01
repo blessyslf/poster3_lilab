@@ -1,0 +1,617 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+  body {
+
+  background: black;
+  width: 100vw;
+  height: 62.5vw;
+  }
+  .bhexagon{
+    position: absolute;
+    width: 69.5vw;
+    height: 69.5vw;
+    box-sizing: border-box;
+    left: 71.3vw;
+    top: 83.6vw;
+}
+
+.bhexagon1{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: -6vw;
+  top: 15.3vw;
+}
+
+.bhexagon2{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 117vw;
+  top: 19.3vw;
+}
+
+.bhexagon3{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: -6vw;
+  top: 78.2vw;
+}
+
+.bhexagon4{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 116.8vw;
+  top: 81.8vw;
+}
+
+.blhexagon1{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 26.1vw;
+  top: 50.5vw;
+}
+
+.blhexagon2{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 98.6vw;
+  top: 50.3vw;
+}
+
+.blhexagon3{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 44.2vw;
+  top: 19.2vw;
+}
+
+.blhexagon4{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 80.3vw;
+  top: 18.8vw;
+}
+
+.blhexagon5{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 44.2vw;
+  top: 81.7vw;
+}
+
+.blhexagon6{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 80.8vw;
+  top: 81.9vw;
+}
+
+.ghexagon{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 65.6vw;
+  top: 63.6vw;
+}
+.ghexagon1{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: -6vw;
+  top: 57.1vw;
+}
+
+.ghexagon2{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 26.5vw;
+  top: 80vw;
+}
+
+.ghexagon3{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 62.3vw;
+  top: 8.4vw;
+}
+
+.ghexagon4{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 48.3vw;
+  top: 88.6vw;
+}
+
+.ghexagon5{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 102.3vw;
+  top: 36.4vw;
+}
+
+.ghexagon6{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 98.7vw;
+  top: 29.3vw;
+}
+
+.rhexagon1{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 26.5vw;
+  top: 29.3vw;
+}
+
+.rhexagon2{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 99vw;
+  top: 71.6vw;
+}
+
+.rhexagon3{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 62.3vw;
+  top: 50.7vw;
+  animation: heartbeat 4s ease-in-out infinite both;
+}
+
+.rhexagon4{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: -6vw;
+  top: 36.1vw;
+}
+
+.rhexagon5{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 116.8vw;
+  top: 60.8vw;
+}
+
+.rhexagon6{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 26.2vw;
+  top: 8.9vw;
+}
+
+.rhexagon7{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 98.9vw;
+  top: 8.8vw;
+}
+
+.rhexagon8{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 12vw;
+  top: 88.3vw;
+}
+
+.rhexagon9{
+  position: absolute;
+  width: 20.8vw;
+  height: 20.8vw;
+  box-sizing: border-box;
+  left: 84.6vw;
+  top: 88.6vw;
+}
+.text1 {
+  position: absolute;
+  width: 162.36vw;
+  height: 1.53vw;
+  left: 0vw;
+  top: 1.8vw;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25vw;
+  line-height: 1.53vw;
+  text-align: center;
+
+  color: #99D4BC;
+}
+.text2 {
+  position: absolute;
+  width: 25vw;
+  height: 7.57vw;
+  left: 1.6vw;
+  top: 6.04vw;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.4vw;
+  line-height: 5.42vw;
+  text-align: center;
+
+  color: #99D5BC;
+}
+.line1 {
+position: absolute;
+width: 98.125vw;
+height: 0vw;
+left: 18.542vw;
+top: 10.348vw;
+
+border: 0.21vw
+solid #99D4BC;
+}
+.pic1 {
+  position: absolute;
+  width: 11.6vw;
+  height: 13.82vw;
+  left: 5.23vw;
+  top: 15.83vw;
+}
+.pic2 {
+  position: absolute;
+  width: 11.6vw;
+  height: 13.82vw;
+  left: 24.17vw;
+  top: 15.83vw;
+}
+.pic3 {
+  position: absolute;
+  width: 11.6vw;
+  height: 13.82vw;
+  left: 43.05vw;
+  top: 15.83vw;
+}
+.pic4 {
+  position: absolute;
+  width: 11.6vw;
+  height: 13.82vw;
+  left: 61.94vw;
+  top: 15.83vw;
+}
+.pic5 {
+  position: absolute;
+  width: 11.6vw;
+  height: 13.82vw;
+  left: 80.83vw;
+  top: 15.83vw;
+}
+.pic6 {
+  position: absolute;
+  width: 11.6vw;
+  height: 13.82vw;
+  left: 99.72vw;
+  top: 15.83vw;
+}
+.text3 {
+  position: absolute;
+  width: 26.53vw;
+  height: 7.57vw;
+  left: 1.6vw;
+  top: 32.5vw;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.4vw;
+  line-height: 5.42vw;
+  text-align: center;
+
+  color: #99D5BC;
+}
+.line1 {
+position: absolute;
+width: 92.5vw;
+height: 0vw;
+left: 24.17vw;
+top: 36.8vw;
+
+border: 0.21vw
+solid #99D4BC;
+}
+.pic7 {
+  position: absolute;
+  width: 11.6vw;
+  height: 13.82vw;
+  left: 99.72vw;
+  top: 41.67vw;
+}
+.pic8 {
+  position: absolute;
+  width: 11.6vw;
+  height: 13.82vw;
+  left: 24.17vw;
+  top: 41.67vw;
+  }
+.pic9 {
+position: absolute;
+width: 11.6vw;
+height: 13.82vw;
+left: 43.05vw;
+top: 41.67vw;
+}
+.pic10 {
+position: absolute;
+width: 11.6vw;
+height: 13.82vw;
+left: 61.94vw;
+top: 41.67vw;
+}
+.pic11 {
+position: absolute;
+width: 11.6vw;
+height: 13.82vw;
+left: 80.83vw;
+top: 41.67vw;
+}
+.pic12 {
+position: absolute;
+width: 11.6vw;
+height: 13.82vw;
+left: 99.72vw;
+top: 41.67vw;
+}
+.text4 {
+  position: absolute;
+  width: 36.875vw;
+  height: 7.57vw;
+  left: 1.6vw;
+  top: 57.92vw;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.4vw;
+  line-height: 5.42vw;
+  text-align: center;
+
+  color: #99D5BC;
+}
+.line3 {
+  position: absolute;
+  width: 78.75vw;
+  height: 0px;
+  left: 37.92vw;
+  top: 62.36vw;
+
+  border: 0.21vw
+  solid #99D4BC;
+}
+.colb1 {
+  position: absolute;
+  width: 114.43vw;
+  height: 7.678vw;
+  left: 0vw;
+  top: 67.569vw;
+}
+.colb2 {
+  position: absolute;
+  width: 114.43vw;
+  height: 7.678vw;
+  left: 0vw;
+  top: 95,97vw;
+}
+.colb3 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 1.25vw;
+  top: 79.107vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb4 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 8.403vw;
+  top: 86.815vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb5 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 19.097vw;
+  top: 79.107vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb6 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 26.25vw;
+  top: 86.815vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb7 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 36.9vw;
+  top: 79.107vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb8 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 44.097vw;
+  top: 86.815vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb9 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 54.792vw;
+  top: 79.107vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb10 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 61.94vw;
+  top: 86.815vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb11 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 72.64vw;
+  top: 79.107vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb12 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 79.792vw;
+  top: 86.815vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb13 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 90.486vw;
+  top: 79.107vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb14 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 97.639vw;
+  top: 86.815vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.colb15 {
+  position: absolute;
+  width: 6.059vw;
+  height: 6.73vw;
+  left: 108.3vw;
+  top: 79.107vw;
+
+  /* background: linear-gradient(180deg, #99D5BC 0%, #FC2525 100%), #15339C;
+  box-sizing: border-box; */
+  transform: rotate(-9.99deg);
+}
+.text5 {
+  position: absolute;
+  width: 162.36vw;
+  height: 1.53vw;
+  left: 0vw;
+  top: 107.153vw;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25vw;
+  line-height: 1.53vw;
+  text-align: center;
+
+  color: #99D4BC;
+  }
+
+  @keyframes heartbeat {
+from {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transform-origin: center center;
+transform-origin: center center;
+-webkit-animation-timing-function: ease-out;
+animation-timing-function: ease-out;
+}
